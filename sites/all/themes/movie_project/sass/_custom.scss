@@ -1,0 +1,195 @@
+// Global Styles
+body {
+  padding-top:30px !important;
+}
+.header__logo {
+  width: 30%;
+  height: 30%;
+}
+.breadcrumb {
+  font-size: 12px;
+  margin-top: 20px;
+  padding:5px;
+  padding-left:15px;
+  background:#d5d5d5;
+  margin-left:-10px;
+  margin-bottom: 20px;
+  width:1180px;
+  a {
+    color: #5e5e5e;
+    text-decoration: none;
+  }
+}
+.field-name-field-review-image {
+  float: left;
+  padding-right: 15px;
+  img {
+    margin-bottom: 0;
+  }
+}
+.group-review-links {
+  padding-left: 0 !important;
+  clear: both;
+  li {
+    display: inline;
+    a {
+      font-size: 18px;
+    }
+  }
+}
+.group-review-links-teaser {
+  padding-left: 0 !important;
+  clear: both;
+  padding-top: 20px !important;
+  li {
+    display: inline;
+    a {
+      font-size: 18px;
+    }
+  }
+}
+.field-name-field-review-rating {
+  clear: both;
+}
+#node-71 > {
+  #page-title {
+    display: none;
+  }
+  div.meta.submitted > span {
+    display: none;
+  }
+}
+
+#header {
+
+  padding-bottom:20px;
+
+}
+
+#navigation {
+
+  padding:15px;
+
+  padding-bottom: 35px;
+
+  background: #b63300;
+
+  margin-bottom: 10px;
+
+  li {
+    margin-right:10px;
+  }
+
+  a {
+    color: #fff;
+    text-decoration: none;
+  }
+
+  .active {
+    padding-top:15px;
+    padding-bottom: 15px;
+  }
+
+  .active a {
+    font-weight: bold;
+  }
+
+  #block-search-form {
+    float:right;
+    top: -25px;
+    position: relative;
+  }
+
+}
+
+.page-node-71 {
+
+  .page__title, .breadcrumb {
+    display: none;
+  }
+
+  .node-71 {
+
+    header {
+      display: none;
+    }
+
+  }
+
+  .pane-views-top-10-films-block-1 {
+    table {
+      width:100%;
+    }
+    h2 {
+      margin-top:0px;
+    }
+  }
+
+  .pane-views-latest-block-1 > h2 {
+    margin-top:0px;
+  }
+
+  aside, #content {
+    margin-top:20px;
+  }
+
+}
+
+.page-node-72 {
+
+  .submitted {
+    display:none;
+  }
+
+  .form-actions {
+    margin-bottom: 20px;
+  }
+
+}
+
+// Latest Reviews and Homepage (Latest View)
+.node-movie-review.node-teaser {
+  border-bottom:1px solid #e5e5e5;
+  padding-top:10px;
+}
+
+.view-latest, .view-genres {
+
+  .field-name-body {
+    margin-top: -24px !important;
+    margin-bottom: 0px !important;
+  }
+
+  h2 {
+    font-family:"Roboto Condensed";
+
+    a {
+      color: #2e2e2e;
+    }
+  }
+
+}
+#footer {
+
+  margin-top:20px;
+
+  border-top:1px solid #e5e5e5;
+
+  font-size:12px;
+
+  .block__title {
+    display: none;
+  }
+
+  .menu {
+
+    text-align: center;
+
+    li {
+      display: inline;
+      margin-right:10px;
+    }
+
+  }
+
+}

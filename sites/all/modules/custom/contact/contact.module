@@ -1,0 +1,49 @@
+<?php
+
+/*
+ * Implements hook_permission().
+ */
+function contact_permission() {
+  return array(
+    'administer contact module' => array(
+      'title' => t('Administer contact module'),
+      'description' => t('Perform administrations tasks for the contact module')
+    ),
+  );
+}
+
+/*
+ * Implements hook_menu().
+ */
+function contact_menu() {
+  $items = array();
+
+  $items['admin/config/content/contact'] = array(
+    'title' => 'Contact Module',
+    'description' => 'Contact Module Settings Page',
+    'page callback' => 'drupal_get_form',
+    'page arguments' => array('contact_admin_settings'),
+    'file' => 'contact.admin.inc',
+    'access callback' => 'user_access',
+    'access arguments' => array('administer'),
+    'type' => MENU_NORMAL_ITEM,
+  );
+
+  $items['contact'] = array(
+    'title' => 'Contact Us Module',
+    'page callback' => 'contact_form',
+    'file' => 'contact.form.inc',
+    'access arguments' => array('access content'),
+  );
+
+  $items['contact/%'] = array(
+    'title' => 'Contact Us Module',
+    'page callback' => 'contact_extra',
+    'page arguments' => array(1),
+    'access arguments' => array('access content'),
+    'file' => 'contact.extra.inc',
+  );
+
+  return $items;
+}
+
