@@ -1,9 +1,1 @@
 <?php
-
-/**
- * Implements hook_install().
- */
-function contact_install() {
-
-
-}
