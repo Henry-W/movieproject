@@ -18,7 +18,7 @@ function contact_permission() {
 function contact_menu() {
   $items = array();
 
-  $items['admin/config/content/contact'] = array(
+  $items['admin/config/content/contact/settings'] = array(
     'title' => 'Contact Module',
     'description' => 'Contact Module Settings Page',
     'page callback' => 'drupal_get_form',
