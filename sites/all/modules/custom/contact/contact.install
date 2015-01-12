@@ -28,7 +28,6 @@ function contact_schema() {
         'default' => 0,
         'description' => 'The form submission count',
       ),
-      'primary key' => array('fid'),
     ),
   );
 
