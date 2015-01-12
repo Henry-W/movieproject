@@ -19,8 +19,15 @@ function contact_menu() {
   $items = array();
 
   $items['admin/config/content/contact/settings'] = array(
-    'title' => 'Contact Module',
-    'description' => 'Contact Module Settings Page',
+    'title' => 'Contact Module Settings',
+    'page callback' => 'drupal_get_form',
+    'page arguments' => array('contact_admin_settings_form'),
+    'file' => 'contact.admin.inc',
+    'access arguments' => array('administer site configuration'),
+  );
+
+  $items['admin/config/content/contact/submissions'] = array(
+    'title' => 'Contact Module Submissions',
     'page callback' => 'drupal_get_form',
     'page arguments' => array('contact_admin_settings_form'),
     'file' => 'contact.admin.inc',

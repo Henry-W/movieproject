@@ -1,1 +1,70 @@
 <?php
+
+/*
+ * Implement hook_schema().
+ */
+function contact_schema() {
+  $schema = array();
+
+  $schema['contact_forms'] = array(
+    'description' => 'Information about Contact Module',
+    'fields' => array(
+      'fid' => array(
+        'type' => 'int',
+        'unsigned' => TRUE,
+        'not null' => TRUE,
+        'default' => 0,
+        'description' => 'The form\'s ID',
+      ),
+      'ftitle' => array(
+        'type' => 'varchar',
+        'not null' => TRUE,
+        'description' => 'The form\'s title',
+      ),
+      'fsubmission_count' => array(
+        'type' => 'int',
+        'unsigned' => TRUE,
+        'not null' => TRUE,
+        'default' => 0,
+        'description' => 'The form\'s submission count',
+      ),
+    ),
+  );
+
+  $schema['contact_form_submissions'] = array(
+    'description' => 'Information about Contact Module',
+    'fields' => array(
+      'sid' => array(
+        'type' => 'int',
+        'unsigned' => TRUE,
+        'not null' => TRUE,
+        'default' => 0,
+        'description' => 'The submission ID',
+      ),
+      'fid' => array(
+        'type' => 'int',
+        'unsigned' => TRUE,
+        'not null' => TRUE,
+        'default' => 0,
+        'description' => 'The form ID',
+      ),
+      'sname' => array(
+        'type' => 'varchar',
+        'not null' => TRUE,
+        'description' => 'The submitter\'s name',
+      ),
+      'semail' => array(
+        'type' => 'varchar',
+        'not null' => TRUE,
+        'description' => 'The submitter\'s email address',
+      ),
+      'smessage' => array(
+        'type' => 'varchar',
+        'not null' => TRUE,
+        'description' => 'The submission message',
+      ),
+    ),
+  );
+
+  return $schema;
+}
