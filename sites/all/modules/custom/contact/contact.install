@@ -5,5 +5,5 @@
  */
 function contact_install() {
 
-echo "hello";
+
 }
