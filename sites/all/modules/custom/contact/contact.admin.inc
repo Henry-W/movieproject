@@ -29,5 +29,5 @@ function contact_admin_settings_form($form, &$form_state) {
     '#required' => FALSE,
   );
 
-  return(system_settings_form($form));
+  return (system_settings_form($form));
 }
