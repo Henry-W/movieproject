@@ -7,13 +7,11 @@ function contact_schema() {
   $schema = array();
 
   $schema['contact_forms'] = array(
-    'description' => 'Information about Contact Module',
+    'description' => 'Contact Forms Table',
     'fields' => array(
       'fid' => array(
         'type' => 'serial',
-        'unsigned' => TRUE,
         'not null' => TRUE,
-        'default' => 0,
         'description' => 'The form ID',
       ),
       'ftitle' => array(
@@ -23,51 +21,48 @@ function contact_schema() {
       ),
       'fsubmission_count' => array(
         'type' => 'int',
-        'unsigned' => TRUE,
         'not null' => TRUE,
         'default' => 0,
         'description' => 'The form submission count',
       ),
     ),
-    'primary_key' => array(
-      'fid',
-    ),
+    'primary key' => array('fid'),
   );
 
-//  $schema['contact_form_submissions'] = array(
-//    'description' => 'Information about Contact Module',
-//    'fields' => array(
-//      'sid' => array(
-//        'type' => 'int',
-//        'unsigned' => TRUE,
-//        'not null' => TRUE,
-//        'default' => 0,
-//        'description' => 'The submission ID',
-//      ),
-//      'fid' => array(
-//        'type' => 'int',
-//        'unsigned' => TRUE,
-//        'not null' => TRUE,
-//        'default' => 0,
-//        'description' => 'The form ID',
-//      ),
-//      'sname' => array(
-//        'type' => 'varchar',
-//        'not null' => TRUE,
-//        'description' => 'The submitter name',
-//      ),
-//      'semail' => array(
-//        'type' => 'varchar',
-//        'not null' => TRUE,
-//        'description' => 'The submitter email address',
-//      ),
-//      'smessage' => array(
-//        'type' => 'varchar',
-//        'not null' => TRUE,
-//        'description' => 'The submission message',
-//      ),
-//    ),
-//  );
+  $schema['contact_form_submissions'] = array(
+    'description' => 'Contact Form Submissions Table',
+    'fields' => array(
+      'sid' => array(
+        'type' => 'serial',
+        'not null' => TRUE,
+        'description' => 'The submission ID',
+      ),
+      'fid' => array(
+        'type' => 'int',
+        'not null' => TRUE,
+        'description' => 'The related form ID',
+      ),
+      'sname' => array(
+        'type' => 'varchar',
+        'length' => 128,
+        'not null' => TRUE,
+        'description' => 'The submitter name',
+      ),
+      'semail' => array(
+        'type' => 'varchar',
+        'length' => 128,
+        'not null' => TRUE,
+        'description' => 'The submitter email address',
+      ),
+      'smessage' => array(
+        'type' => 'text',
+        'size' => 'medium',
+        'not null' => TRUE,
+        'description' => 'The submission message',
+      ),
+    ),
+    'primary key' => array('sid'),
+  );
 
   return $schema;
 }
