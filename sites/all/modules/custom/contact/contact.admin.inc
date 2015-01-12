@@ -2,7 +2,7 @@
 /*
  * Implements hook_admin().
  */
-function contact_admin_settings() {
+function contact_admin_settings_form($form, &$form_state) {
   $form = array();
 
   $form['contact_email_to'] = array(
@@ -29,5 +29,5 @@ function contact_admin_settings() {
     '#required' => FALSE,
   );
 
-  return system_settings_form($form);
+  return(system_settings_form($form));
 }

@@ -22,11 +22,9 @@ function contact_menu() {
     'title' => 'Contact Module',
     'description' => 'Contact Module Settings Page',
     'page callback' => 'drupal_get_form',
-    'page arguments' => array('contact_admin_settings'),
+    'page arguments' => array('contact_admin_settings_form'),
     'file' => 'contact.admin.inc',
-    'access callback' => 'user_access',
-    'access arguments' => array('administer'),
-    'type' => MENU_NORMAL_ITEM,
+    'access arguments' => array('administer site configuration'),
   );
 
   $items['contact'] = array(
