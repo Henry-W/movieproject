@@ -10,7 +10,7 @@ function contact_schema() {
     'description' => 'Information about Contact Module',
     'fields' => array(
       'fid' => array(
-        'type' => 'int',
+        'type' => 'serial',
         'unsigned' => TRUE,
         'not null' => TRUE,
         'default' => 0,
@@ -28,6 +28,9 @@ function contact_schema() {
         'default' => 0,
         'description' => 'The form submission count',
       ),
+    ),
+    'primary_key' => array(
+      'fid',
     ),
   );
 
