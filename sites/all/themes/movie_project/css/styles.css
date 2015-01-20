@@ -1769,13 +1769,13 @@ body {
   padding-top: 30px !important;
 }
 
-/* line 5, ../sass/_custom.scss */
+/* line 6, ../sass/_custom.scss */
 .header__logo {
   width: 30%;
   height: 30%;
 }
 
-/* line 9, ../sass/_custom.scss */
+/* line 11, ../sass/_custom.scss */
 .breadcrumb {
   font-size: 12px;
   margin-top: 20px;
@@ -1786,174 +1786,308 @@ body {
   margin-bottom: 20px;
   width: 1180px;
 }
-/* line 18, ../sass/_custom.scss */
+
+/* line 20, ../sass/_custom.scss */
 .breadcrumb a {
   color: #5e5e5e;
   text-decoration: none;
 }
 
-/* line 23, ../sass/_custom.scss */
+/* line 26, ../sass/_custom.scss */
 .field-name-field-review-image {
   float: left;
   padding-right: 15px;
 }
-/* line 26, ../sass/_custom.scss */
+
+/* line 29, ../sass/_custom.scss */
 .field-name-field-review-image img {
   margin-bottom: 0;
 }
 
-/* line 30, ../sass/_custom.scss */
+/* line 34, ../sass/_custom.scss */
 .group-review-links {
   padding-left: 0 !important;
   clear: both;
 }
-/* line 33, ../sass/_custom.scss */
+
+/* line 37, ../sass/_custom.scss */
 .group-review-links li {
   display: inline;
 }
-/* line 35, ../sass/_custom.scss */
+
+/* line 39, ../sass/_custom.scss */
 .group-review-links li a {
   font-size: 18px;
 }
 
-/* line 40, ../sass/_custom.scss */
+/* line 45, ../sass/_custom.scss */
 .group-review-links-teaser {
   padding-left: 0 !important;
   clear: both;
   padding-top: 20px !important;
 }
-/* line 44, ../sass/_custom.scss */
+
+/* line 49, ../sass/_custom.scss */
 .group-review-links-teaser li {
   display: inline;
 }
-/* line 46, ../sass/_custom.scss */
+
+/* line 51, ../sass/_custom.scss */
 .group-review-links-teaser li a {
   font-size: 18px;
 }
 
-/* line 51, ../sass/_custom.scss */
+/* line 57, ../sass/_custom.scss */
 .field-name-field-review-rating {
   clear: both;
 }
 
-/* line 55, ../sass/_custom.scss */
+/* line 62, ../sass/_custom.scss */
 #node-71 > #page-title {
   display: none;
 }
-/* line 58, ../sass/_custom.scss */
+
+/* line 65, ../sass/_custom.scss */
 #node-71 > div.meta.submitted > span {
   display: none;
 }
 
-/* line 63, ../sass/_custom.scss */
+/* line 70, ../sass/_custom.scss */
 #header {
   padding-bottom: 20px;
 }
 
-/* line 69, ../sass/_custom.scss */
+/* line 76, ../sass/_custom.scss */
 #navigation {
   padding: 15px;
   padding-bottom: 35px;
   background: #b63300;
   margin-bottom: 10px;
 }
-/* line 79, ../sass/_custom.scss */
+
+/* line 86, ../sass/_custom.scss */
 #navigation li {
   margin-right: 10px;
 }
-/* line 83, ../sass/_custom.scss */
+
+/* line 90, ../sass/_custom.scss */
 #navigation a {
   color: #fff;
   text-decoration: none;
 }
-/* line 88, ../sass/_custom.scss */
+
+/* line 95, ../sass/_custom.scss */
 #navigation .active {
   padding-top: 15px;
   padding-bottom: 15px;
 }
-/* line 93, ../sass/_custom.scss */
+
+/* line 100, ../sass/_custom.scss */
 #navigation .active a {
   font-weight: bold;
 }
-/* line 97, ../sass/_custom.scss */
+
+/* line 104, ../sass/_custom.scss */
 #navigation #block-search-form {
   float: right;
   top: -25px;
   position: relative;
 }
 
-/* line 107, ../sass/_custom.scss */
+/* line 114, ../sass/_custom.scss */
 .page-node-71 .page__title, .page-node-71 .breadcrumb {
   display: none;
 }
-/* line 113, ../sass/_custom.scss */
+
+/* line 120, ../sass/_custom.scss */
 .page-node-71 .node-71 header {
   display: none;
 }
-/* line 120, ../sass/_custom.scss */
-.page-node-71 .pane-views-top-10-films-block-1 table {
-  width: 100%;
-}
-/* line 123, ../sass/_custom.scss */
-.page-node-71 .pane-views-top-10-films-block-1 h2 {
+
+/* line 126, ../sass/_custom.scss */
+.page-node-71 h2 {
   margin-top: 0px;
 }
-/* line 128, ../sass/_custom.scss */
-.page-node-71 .pane-views-latest-block-1 > h2 {
-  margin-top: 0px;
-}
-/* line 132, ../sass/_custom.scss */
+
+/* line 130, ../sass/_custom.scss */
 .page-node-71 aside, .page-node-71 #content {
   margin-top: 20px;
 }
 
-/* line 140, ../sass/_custom.scss */
+/* line 138, ../sass/_custom.scss */
 .page-node-72 .submitted {
   display: none;
 }
-/* line 144, ../sass/_custom.scss */
+
+/* line 142, ../sass/_custom.scss */
 .page-node-72 .form-actions {
   margin-bottom: 20px;
 }
 
-/* line 151, ../sass/_custom.scss */
+/* line 149, ../sass/_custom.scss */
 .node-movie-review.node-teaser {
   border-bottom: 1px solid #e5e5e5;
   padding-top: 10px;
 }
 
-/* line 158, ../sass/_custom.scss */
+/* line 156, ../sass/_custom.scss */
 .view-latest .field-name-body, .view-genres .field-name-body {
   margin-top: -24px !important;
   margin-bottom: 0px !important;
 }
-/* line 163, ../sass/_custom.scss */
+
+/* line 161, ../sass/_custom.scss */
 .view-latest h2, .view-genres h2 {
   font-family: "Roboto Condensed";
 }
-/* line 166, ../sass/_custom.scss */
+
+/* line 164, ../sass/_custom.scss */
 .view-latest h2 a, .view-genres h2 a {
   color: #2e2e2e;
 }
 
-/* line 172, ../sass/_custom.scss */
+/* line 171, ../sass/_custom.scss */
 #footer {
   margin-top: 20px;
   border-top: 1px solid #e5e5e5;
   font-size: 12px;
 }
-/* line 180, ../sass/_custom.scss */
+
+/* line 179, ../sass/_custom.scss */
 #footer .block__title {
   display: none;
 }
-/* line 184, ../sass/_custom.scss */
+
+/* line 183, ../sass/_custom.scss */
 #footer .menu {
   text-align: center;
 }
-/* line 188, ../sass/_custom.scss */
+
+/* line 187, ../sass/_custom.scss */
 #footer .menu li {
   display: inline;
   margin-right: 10px;
+}
+
+/* line 197, ../sass/_custom.scss */
+table {
+  margin-left: 0px !important;
+  border-collapse: separate;
+  border-spacing: 0;
+  /* IMPORTANT, I REMOVED border-collapse: collapse; FROM THIS LINE IN ORDER TO MAKE THE OUTER BORDER RADIUS WORK */
+  font-family: Arial, Helvetica, sans-serif;
+  color: #666;
+  font-size: 12px;
+  text-shadow: 1px 1px 0px #fff;
+  background: #eaebec;
+  margin: 20px;
+  border: #ccc 1px solid !important;
+  -moz-border-radius: 3px !important;
+  -webkit-border-radius: 3px !important;
+  border-radius: 3px;
+  -moz-box-shadow: 0 1px 2px #d1d1d1 !important;
+  -webkit-box-shadow: 0 1px 2px #d1d1d1 !important;
+  box-shadow: 0 1px 2px #d1d1d1;
+}
+
+/* line 202, ../sass/_custom.scss */
+table a:visited, table a:link {
+  color: #666;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+/* line 207, ../sass/_custom.scss */
+table a:active, table a:hover {
+  color: #bd5a35;
+  text-decoration: underline;
+}
+
+/* line 225, ../sass/_custom.scss */
+table th {
+  padding: 21px 25px 22px 25px;
+  border-top: 1px solid #fafafa !important;
+  border-bottom: 1px solid #e0e0e0 !important;
+  background: #ededed;
+  background: -webkit-gradient(linear, left top, left bottom, from(#ededed), to(#ebebeb));
+  background: -moz-linear-gradient(top, #ededed, #ebebeb);
+}
+
+/* line 232, ../sass/_custom.scss */
+table th:first-child {
+  text-align: left;
+  padding-left: 20px;
+}
+
+/* line 237, ../sass/_custom.scss */
+table tr {
+  text-align: center;
+  padding-left: 20px;
+}
+
+/* line 239, ../sass/_custom.scss */
+table tr:first-child th:first-child {
+  -moz-border-radius-topleft: 3px;
+  -webkit-border-top-left-radius: 3px;
+  border-top-left-radius: 3px;
+}
+
+/* line 244, ../sass/_custom.scss */
+table tr:first-child th:last-child {
+  -moz-border-radius-topright: 3px;
+  -webkit-border-top-right-radius: 3px;
+  border-top-right-radius: 3px;
+}
+
+/* line 252, ../sass/_custom.scss */
+table tr td {
+  padding: 18px;
+  border-top: 1px solid #ffffff;
+  border-bottom: 1px solid #e0e0e0;
+  border-left: 1px solid #e0e0e0;
+  background: #fafafa;
+  background: -webkit-gradient(linear, left top, left bottom, from(#fbfbfb), to(#fafafa));
+  background: -moz-linear-gradient(top, #fbfbfb, #fafafa);
+}
+
+/* line 253, ../sass/_custom.scss */
+table tr td:first-child {
+  text-align: left;
+  padding-left: 20px;
+  border-left: 0;
+}
+
+/* line 266, ../sass/_custom.scss */
+table tr.even td {
+  background: #f6f6f6;
+  background: -webkit-gradient(linear, left top, left bottom, from(#f8f8f8), to(#f6f6f6));
+  background: -moz-linear-gradient(top, #f8f8f8, #f6f6f6);
+}
+
+/* line 271, ../sass/_custom.scss */
+table tr:last-child td {
+  border-bottom: 0;
+}
+
+/* line 273, ../sass/_custom.scss */
+table tr:last-child td:first-child {
+  -moz-border-radius-bottomleft: 3px;
+  -webkit-border-bottom-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+}
+
+/* line 278, ../sass/_custom.scss */
+table tr:last-child td:last-child {
+  -moz-border-radius-bottomright: 3px;
+  -webkit-border-bottom-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
+
+/* line 284, ../sass/_custom.scss */
+table tr:hover td {
+  background: #f2f2f2;
+  background: -webkit-gradient(linear, left top, left bottom, from(#f2f2f2), to(#f0f0f0));
+  background: -moz-linear-gradient(top, #f2f2f2, #f0f0f0);
 }
 
 /* SMACSS theme rules */
